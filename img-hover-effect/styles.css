@@ -1,0 +1,29 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100dvh;
+    align-items: center;
+}
+
+.img-box {
+    background: var(--img) center;
+    background-size: cover;
+    flex-basis: 300px;
+    position: relative;
+    filter: grayscale(100%) opacity(85%);
+    transition: 400ms all ease;
+    width: 280px;
+    height: 620px;
+    object-fit: cover;
+}
+
+/* .img-box:nth-child(odd) {
+    transform: translateY(-20px);
+} */
+
+.img-box:hover {
+    flex-basis: 400px;
+    filter: grayscale(0%) opacity(100%)
+}

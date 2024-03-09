@@ -1,0 +1,47 @@
+{
+    "chracters": [
+        {
+            "name": "luke skywalker",
+            "imgUrl": "../assets/imgs/luke.jpg",
+            "quote": "«I am a Jedi, just like my father before me.»",
+            "description": "Luke Skywalker was a Force-sensitive human and Jedi Master who, along with his twin sister, Princess Leia Organa, fought against the government of the Galactic Empire during the Galactic Civil War. The son of Jedi Knight Anakin Skywalker and Senator Padmé Amidala of Naboo, Luke was born shortly after the end of the Clone Wars in 19 BBY. As a result of his mother's death and his father's fall to the dark side of the Force, Luke was sent to Anakin's home planet of Tatooine to live with his relatives, Owen and Beru Lars, for the first 19 years of his life. his life. After their deaths at the hands of the Empire, Luke became an apprentice to his father's former master, Obi-Wan Kenobi, in order to learn the ways of the Force and become a Jedi. With the help of smugglers Han Solo and Chewbacca, Skywalker rescued Leia Organa from the clutches of the Empire, but lost his master, who died while confronting the Sith Lord Darth Vader. At the Battle of Yavin, Skywalker managed to destroy the Empire's battle station and superweapon, the Death Star, thus saving the Alliance to Restore the Republic from destruction."
+        },
+        {
+            "name": "darth vader",
+            "imgUrl": "../assets/imgs/vader.png",
+            "quote": "«You are the chosen one. You brought balance to this world. Follow this path and you will do it again... for the galaxy. But be careful... with your heart...»",
+            "description": "Anakin Skywalker, a Force-sensitive human male, was a Jedi Knight of the Galactic Republic and the Chosen One of the Force. During the Clone Wars, his achievements as a commander on the battlefield earned him the nickname the Fearless Hero. After turning to the dark side of the Force, he became known as Darth Vader, a Dark Lord of the Sith and apprentice of Emperor Darth Sidious. As a Sith Lord, Vader turned against his former comrades and hunted the surviving Jedi to near extinction. He became an enforcer for the Galactic Empire, who worked to crush the Alliance to Restore the Republic for opposing the will of their Sith Master. However, despite his actions as Darth Vader, a glimmer of the light side of the Force remained within the former Anakin Skywalker."
+        },
+        {
+            "name": "the mandalorian",
+            "imgUrl": "../assets/imgs/themandalorian.jpg",
+            "quote": "«This is the way»",
+            "description": "The Mandalorian, known to some as Din Djarin, is a battle-worn bounty hunter fighting his way through a dangerous galaxy in an uncertain time. Reunited with Grogu, Djarin sets out on a new quest to claim a place in Mandalorian society as his scattered people unite to take a stand against the Imperial remnant."
+        },
+        {
+            "name": "obiwan kenobi",
+            "imgUrl": "../assets/imgs/obiwan.jpg",
+            "quote": "«The truth is often what we make of it.»",
+            "description": "Obi-Wan Kenobi was a legendary human Jedi Master who served on the Jedi High Council during the final years of the Republic Era. As a Jedi General, Kenobi served in the Grand Army of the Republic during the Clone Wars. Kenobi, however, was forced into exile as a result of the Great Jedi Purge. As a mentor, Kenobi was responsible for the training of two members of the Skywalker family, Anakin Skywalker and Luke Skywalker, both serving as his Padawan to learn the ways of the Force. Kenobi was born on the planet Stewjon in 57 BBY. He was sensitive to the Force, so he was incorporated into the Jedi Order as a child. Raised in the Jedi Temple on Coruscant, Kenobi was assigned to Jedi Master Qui-Gon Jinn. In 32 BBY Kenobi achieved the rank of Jedi Knight by defeating the Sith Lord Darth Maul during the Invasion of Naboo. Kenobi chose to train Anakin Skywalker the prophesied Chosen One who was destined to destroy the Sith and restore balance to the Force—having promised Jinn, he was killed in a lightsaber duel against Maul."
+        },
+        {
+            "name": "kylo ren",
+            "imgUrl": "../assets/imgs/kyloren.jpg",
+            "quote": "«I feel it again. The pull to the light.»",
+            "description": "The son of Han Solo and Leia Organa, Ben Solo was seduced by the dark side of the Force and renamed himself Kylo Ren: leader of the Knights of Ren, champion of the First Order, and apprentice to Supreme Leader Snoke. Driven to destroy the past, Kylo killed his father and his master, supplanting Snoke as Supreme Leader. But he remained haunted by his father’s death, his connection with the mysterious Rey, and the pull of the good in himself. In time, all three would help Ben Solo return to the light."
+        },
+        {
+            "name": "boba fett",
+            "imgUrl": "../assets/imgs/bobafett.jpg",
+            "quote": "«If you wish to continue breathing, I advise you to weigh your next words carefully.»",
+            "description": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace."
+        },
+        {
+            "name": "yoda",
+            "imgUrl": "../assets/imgs/yoda.jpg",
+            "quote": "«Once you start down the dark path, forever will it dominate your destiny. Consume you, it will.»",
+            "description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality."
+        }
+    ]
+    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsive con Tailwind Css</title>
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ION ICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+    <header class="bg-white">
+        <nav class="flex items-center justify-end md:justify-center md:mt-4 p-2 gap-y-8  md:gap-x-4 ">
+                <div class="nav-links bg-white w-full md:w-auto duration-700 absolute min-h-[40vh] md:min-h-fit left-0 md:static flex items-center px-5 top-[-100%] "> <!-- top -100% -->
+                    <ul class="flex md:flex-row flex-col md:items-center md:gap-12 gap-8">
+                    <a href="#" class="text-2xl text-[#c20808] hover:text-[#010101] transition-all duration-300 uppercase">Inicio</a>
+                    <a href="#" class="text-2xl text-[#c20808] hover:text-[#010101] transition-all duration-300 uppercase">Galería</a>
+                    <a href="#" class="text-2xl text-[#c20808] hover:text-[#010101] transition-all duration-300 uppercase">About</a>
+                    <a href="#" class="text-2xl text-[#c20808] hover:text-[#010101] transition-all duration-300 uppercase">Contacto</a>
+                </ul>
+                
+            </div>
+            <div class="flex justify-end p-4">
+                <!-- PRIMERA FORMA ION ICONS -->
+                <ion-icon onClick="toggle(this)" name='menu' class="text-2xl cursor-pointer md:hidden"></ion-icon>
+                
+                <!-- SEGUNDA FORMA TABLER ICONS -->
+                <!--  <svg onClick="onToggleMenu(this)" id="menu" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 cursor-pointer md:hidden " width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+                    <svg onClick="closeMenu(this)" xmlns="http://www.w3.org/2000/svg" id="close" class="icon icon-tabler icon-tabler-x hidden" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg> -->
+                </div>
+        </nav>
+    </header>
+    
+
+    <script>
+        const navlinks = document.querySelector('.nav-links');
+    
+        // PRIMERA FORMA ION ICONS
+        const toggle = (e) => {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navlinks.classList.toggle('top-[5%]');
+        }
+
+        // SEGUNDA FORMA
+        
+      /*   const onToggleMenu = () => {
+            const close = document.getElementById('close');
+            const menu = document.getElementById('menu');
+            close.classList.remove('hidden');
+            menu.classList.add('hidden');
+            navlinks.classList.toggle('top-[5%]');
+        }
+
+        const closeMenu = () => {
+            const close = document.getElementById('close');
+            const menu = document.getElementById('menu');
+            close.classList.add('hidden');
+            menu.classList.remove('hidden')
+            navlinks.classList.remove('top-[5%]');
+        } */
+    </script>
+</body>
+</html>

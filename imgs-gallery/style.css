@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Starhol';
+    src: url('../assets/fonts/Starjhol.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Starjedi';
+    src: url('../assets/fonts/Starjedi.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/imgs/star-wars-backgrounds-25_bc15ec98.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    z-index: -100;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+section {
+    background-color: black;
+    display: flex;
+    width: 600px;
+    height: 430px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1; /* dentro de la caja tendrá que ocupar el espacio que pueda */
+    object-fit: cover;
+    opacity: .8;
+    transition: width 0.5s, opacity 0.5s, filter 0.5s, transform 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  /*   transform: scale(1.1); */
+    z-index: 2;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(235, 213, 23);
+    font-family: 'Starhol', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: rgb(235, 213, 23);
+    width: 100%;
+    font-family: 'Starhol', sans-serif;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: -10px;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h1Data {
+    font-family: 'Starjedi', sans-serif;
+    color: rgb(235, 213, 23);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.quoteData {
+    color: rgb(235, 213, 23);
+    font-style: italic;
+}
+
+.pData {
+    margin-top: 6px;
+    color: #fff;
+    width: 50%;
+    line-height: 1.5rem;
+    font-size: 12px;
+}
+
+.tail {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tail hr {
+    width: 50%;
+    margin: auto;
+    border-color: #131313;
+}
+.tail p {
+    color: #474747;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .pData {
+        width: 80%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .quoteData {
+        font-size: 10px;
+    text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    section {
+        width: 100%;
+    }
+}
